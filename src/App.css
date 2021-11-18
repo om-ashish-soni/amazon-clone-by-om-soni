@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.initLogo{
+  border-radius: 10%;
+  pointer-events: none;
+  width:5vw;
+  /* float:left; */
+}
+.initLogo1{
+  border-radius: 10%;
+  pointer-events: none;
+  width:3vw;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  .initLogo{
+    animation:App-logo-spin1 infinite 20s linear;
+  }
+  .initLogo{
+    animation:App-logo-spin2 infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.loginForm{
+  font-size:2vw;
+  font-variant: small-caps;
+  padding:15%;
+  padding-bottom: 1%;
+  padding-top:5%;
+}
+.loginForm1{
+  font-size:2vw;
+  font-variant: small-caps;
+  padding:15%;
+  padding-bottom: 1%;
+  padding-top:5%;
+}
+.signInForm{
+  font-size:2vw;
+  font-variant: small-caps;
+  padding:5%;
+  padding-bottom: 1%;
+  padding-top:5%;
+}
+.inpLogin{
+  width:40%;
+
+}
+.navLogo{
+  margin-left:2%;
+  width:10vw;
+  float:left;
+  margin-top:1%;
+}
+.NavBar{
+  padding:1%;
+}
+.home{
+  margin-left:10%;
+  width:3.2vw;
+  /* float:left; */
+}
+.sellOnAmazon{
+  border:none;
+  background-color:white;
+  font-size:2vw;
+  font-variant: small-caps;
+  margin-left:1%;
+  /* float:left; */
+}
+.cart{
+  /* margin-left:2%; */
+  width:3.2vw;
+  /* float:left; */
+}
+.SearchForm{
+  margin-left:7%;
+  float:left;
+  margin-top:1%;
+  width:30%;
+}
+.inpLogin1{
+  width:20%;
+  margin-left:10%;
+}
+.inpSearch{
+  width:100%;
+}
+.switchBtn{
+  width:28%;
+  font-size:2vw;
+  border:none;
+  background-color: #131A22;
+  color:white;
+}
+.switchBtn1{
+  width:24%;
+  font-size:2vw;
+  border:none;
+  background-color: #131A22;
+  color:white;
+}
+.lbl{
+  font-size:1.8vw;
+}
+.prod_title{
+  font-size:1.8vw;
+  font-variant: small-caps;
+}
+.ProdsellerName{
+  color:dodgerblue;
+  font-variant: small-caps;
+  font-size:2vw;
+  background-color: white;
+  border:none;
+}
+.desc{
+  font-size:2vw;
+  font-variant: initial;
+}
+.prod_details{
+  /* float:left; */
+  text-align:left;
+}
+.product{
+  width:30%;
+  height:20%;
+  margin:10%;
+  float:left;
+}
+.productMedia{
+  float:left;
+  width:50%;
+  height:20%;
+}
+.sellerData{
+  margin:5%;
+  width:90%;
+
+}
+.sellerName{
+  font-size:2vw;
+  font-variant: small-caps;
+}
+.buy{
+  border:none;
+  border-radius: 10px;
+  width:90%;
+  margin-right:5%;
+  margin-bottom:2%;
+  background-color: #FF9900;
+}
+.prod_price{
+  font-size:2vw;
+  font-variant: small-caps;
+  color:tomato;
+}
+.newProdHead{
+  font-size:3vw;
+  font-variant: small-caps;
+}
+.submitLoginBtn{
+    width:40%;
+    border:none;
+    background-color:#FF9900;
+}
+.submitLoginBtn1{
+  width:37%;
+  border:none;
+  background-color:#FF9900;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes App-logo-spin2{
+  0% {left:0%;width:7vw;transform: rotate(0deg);}
+  25%{right:32%;width:12vw;transform: rotate(180deg);}
+  50% {left:100%;width:9vw;transform: rotate(360deg);}
+  75%{left:32%;width:12vw;transform: rotate(-180deg);}
+  100% {right:0%;width:7vw;transform: rotate(-360deg);}
+
+}
+@keyframes App-logo-spin1{
+  /* from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  } */
+  /* 0% {left:0%;top:0%;}
+  25% {left : 100%;top:0%;}
+  50% {left:100%;top:100%;}
+  75% {left:0%;top:100%;}
+  100% {left:0%;top:0%;} */
+  0% {left:0%;width:7vw;transform: rotate(0deg);}
+  25%{right:32%;width:12vw;transform: rotate(180deg);}
+  50% {left:100%;width:9vw;transform: rotate(360deg);}
+  75%{left:32%;width:12vw;transform: rotate(-180deg);}
+  100% {right:0%;width:7vw;transform: rotate(-360deg);}
+}
