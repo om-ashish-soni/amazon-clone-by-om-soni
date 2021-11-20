@@ -421,7 +421,7 @@ function App() {
 
                   <hr /><hr />
                   <center>
-                    <button className="switchBtn1" onClick={() => setIsNewUser(false)}>Not a user? Sign in </button>
+                    <button className="switchBtn1" onClick={() => setIsNewUser(false)}>Already a user? Log in </button>
 
                   </center>
                 </>
@@ -432,7 +432,7 @@ function App() {
               <div className="NavBar">
                 <img src={logo1} className="navLogo" />
                 <form className="SearchForm" onSubmit={searchCategory}>
-                  <input className="inpSearch" ref={searchData} placeholder="search" />
+                  <input className="inpSearch" ref={searchData} placeholder="search category , ex: fashion" />
                 </form>
                 <img src={home} className="home" onClick={switchToHome} />
                 <button className="sellOnAmazon" onClick={switchToSellNewProduct}>sell on amazon</button>
