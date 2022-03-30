@@ -5,7 +5,7 @@ https://youtu.be/3xMkHLV5E1s
 				Basic functionalities : 
 					User enters via login , if not already existing user 
 then signin via registration
-Functions : 
+# Functions : 
 Once user enters at home page user will see the feed.
 Feed consists of product list .
 Product list contains each product details 
@@ -25,11 +25,4 @@ User can also put an order contains all items in cart , by visiting cart.
 
 All above functionalities is provided by web app.
 
-Questions : 
-Which tech stacks do you prefer for your projects?
-      Ans : I would prefer to make Web app in react , node ,express and mysql
-	In frontend ui part i prefer React hooks as it is flexible
-	In backend part i would use node and express framework with mysql database.
-
-					Sometimes i would prefer rather using firebase.
 	
